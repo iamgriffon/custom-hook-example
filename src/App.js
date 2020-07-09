@@ -6,13 +6,15 @@ import UseReducerExample from './components/use-reducer-example/use-reducer-comp
 
 
 import './App.css';
+import UseEffectExample from './components/use-effect-example/use-effect-example.component';
 
 const App = props => {
   return (
     <div className='App'>
-      <UseReducerExample userId={5} />
-      {/* <User userId={5} />
-      <Post postId={15} /> */}
+      <UseReducerExample />
+      <UseEffectExample />
+      <User userId={5} />
+      <Post postId={15} />
     </div>
   );
 };
